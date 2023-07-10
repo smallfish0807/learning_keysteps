@@ -1,0 +1,22 @@
+### Use the following command to install required packages ###
+### pip3 install -r requirements.txt ###
+
+numpy
+torch==1.2.0
+torchvision
+matplotlib
+pyyaml==5.1
+opencv-python
+imageio
+pygame
+
+# openai gym environments
+gym
+atari-py
+
+# adversarial Attack
+foolbox==1.8.0
+
+# dopamine
+gin-config
+tensorflow-gpu==1.13.2

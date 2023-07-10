@@ -1,0 +1,49 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Loading pretrained/dqn/Pong/1/tf_checkpoints/tf_ckpt-199
+Online/Conv/weights:0 (8, 8, 4, 32)  
+Online/Conv/biases:0 (32,)          
+Online/Conv_1/weights:0 (4, 4, 32, 64) 
+Online/Conv_1/biases:0 (64,)          
+Online/Conv_2/weights:0 (3, 3, 64, 64) 
+Online/Conv_2/biases:0 (64,)          
+Online/fully_connected/weights:0 (7744, 512)    
+Online/fully_connected/biases:0 (512,)         
+Online/fully_connected_1/weights:0 (512, 6)       
+Online/fully_connected_1/biases:0 (6,)           
+Target/Conv/weights:0 (8, 8, 4, 32)  
+Target/Conv/biases:0 (32,)          
+Target/Conv_1/weights:0 (4, 4, 32, 64) 
+Target/Conv_1/biases:0 (64,)          
+Target/Conv_2/weights:0 (3, 3, 64, 64) 
+Target/Conv_2/biases:0 (64,)          
+Target/fully_connected/weights:0 (7744, 512)    
+Target/fully_connected/biases:0 (512,)         
+Target/fully_connected_1/weights:0 (512, 6)       
+Target/fully_connected_1/biases:0 (6,)           
+attacker_policy: rl
+targetted: False visualize: False decreasing_epsilons: False
+epsilons: 100 max_epsilons: [0.01] attack_proportions: [0.1]
+epsilons: 100 max_epsilon: 0.01 attack_proportion: 0.1
+17.0 0.0 [549, 93, 293, 128, 736, 596]
+17.0 0.0 [765, 161, 410, 266, 933, 812]
+12.0 0.0 [821, 108, 370, 264, 812, 771]
+16.0 0.0 [726, 106, 292, 179, 779, 701]
+13.0 0.0 [678, 146, 387, 234, 786, 755]
+17.0 0.0 [725, 146, 342, 216, 811, 717]
+17.0 0.0 [610, 93, 300, 168, 721, 616]
+18.0 0.0 [685, 98, 220, 178, 645, 648]
+17.0 0.0 [720, 143, 323, 245, 811, 758]
+19.0 0.0 [693, 93, 268, 166, 592, 687]
+16.3 2.0518284528683193 0.0 0.0
+[16.3]
+[2.0518284528683193]
+[0.0]
+[0.0]

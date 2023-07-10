@@ -1,0 +1,41 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Loading pretrained/dqn/Pong/1/tf_checkpoints/tf_ckpt-199
+Online/Conv/weights:0 (8, 8, 4, 32)  
+Online/Conv/biases:0 (32,)          
+Online/Conv_1/weights:0 (4, 4, 32, 64) 
+Online/Conv_1/biases:0 (64,)          
+Online/Conv_2/weights:0 (3, 3, 64, 64) 
+Online/Conv_2/biases:0 (64,)          
+Online/fully_connected/weights:0 (7744, 512)    
+Online/fully_connected/biases:0 (512,)         
+Online/fully_connected_1/weights:0 (512, 6)       
+Online/fully_connected_1/biases:0 (6,)           
+Target/Conv/weights:0 (8, 8, 4, 32)  
+Target/Conv/biases:0 (32,)          
+Target/Conv_1/weights:0 (4, 4, 32, 64) 
+Target/Conv_1/biases:0 (64,)          
+Target/Conv_2/weights:0 (3, 3, 64, 64) 
+Target/Conv_2/biases:0 (64,)          
+Target/fully_connected/weights:0 (7744, 512)    
+Target/fully_connected/biases:0 (512,)         
+Target/fully_connected_1/weights:0 (512, 6)       
+Target/fully_connected_1/biases:0 (6,)           
+17.0 [713, 136, 300, 215, 904, 705]
+20.0 [708, 111, 240, 201, 615, 755]
+18.0 [639, 106, 269, 142, 589, 700]
+15.0 [542, 101, 304, 159, 763, 589]
+20.0 [737, 88, 216, 160, 541, 687]
+18.0 [717, 141, 334, 218, 757, 726]
+21.0 [568, 100, 189, 153, 512, 604]
+16.0 [699, 109, 307, 182, 809, 675]
+19.0 [595, 98, 230, 113, 636, 586]
+20.0 [638, 73, 150, 108, 399, 628]
+18.4 1.8547236990991407

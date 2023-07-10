@@ -1,0 +1,71 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Loading pretrained/dqn/SpaceInvaders/1/tf_checkpoints/tf_ckpt-199
+Online/Conv/weights:0 (8, 8, 4, 32)  
+Online/Conv/biases:0 (32,)          
+Online/Conv_1/weights:0 (4, 4, 32, 64) 
+Online/Conv_1/biases:0 (64,)          
+Online/Conv_2/weights:0 (3, 3, 64, 64) 
+Online/Conv_2/biases:0 (64,)          
+Online/fully_connected/weights:0 (7744, 512)    
+Online/fully_connected/biases:0 (512,)         
+Online/fully_connected_1/weights:0 (512, 6)       
+Online/fully_connected_1/biases:0 (6,)           
+Target/Conv/weights:0 (8, 8, 4, 32)  
+Target/Conv/biases:0 (32,)          
+Target/Conv_1/weights:0 (4, 4, 32, 64) 
+Target/Conv_1/biases:0 (64,)          
+Target/Conv_2/weights:0 (3, 3, 64, 64) 
+Target/Conv_2/biases:0 (64,)          
+Target/fully_connected/weights:0 (7744, 512)    
+Target/fully_connected/biases:0 (512,)         
+Target/fully_connected_1/weights:0 (512, 6)       
+Target/fully_connected_1/biases:0 (6,)           
+Loading pretrained/dqn/SpaceInvaders/5/tf_checkpoints/tf_ckpt-199
+Online/Conv/weights:0 (8, 8, 4, 32)  
+Online/Conv/biases:0 (32,)          
+Online/Conv_1/weights:0 (4, 4, 32, 64) 
+Online/Conv_1/biases:0 (64,)          
+Online/Conv_2/weights:0 (3, 3, 64, 64) 
+Online/Conv_2/biases:0 (64,)          
+Online/fully_connected/weights:0 (7744, 512)    
+Online/fully_connected/biases:0 (512,)         
+Online/fully_connected_1/weights:0 (512, 6)       
+Online/fully_connected_1/biases:0 (6,)           
+Target/Conv/weights:0 (8, 8, 4, 32)  
+Target/Conv/biases:0 (32,)          
+Target/Conv_1/weights:0 (4, 4, 32, 64) 
+Target/Conv_1/biases:0 (64,)          
+Target/Conv_2/weights:0 (3, 3, 64, 64) 
+Target/Conv_2/biases:0 (64,)          
+Target/fully_connected/weights:0 (7744, 512)    
+Target/fully_connected/biases:0 (512,)         
+Target/fully_connected_1/weights:0 (512, 6)       
+Target/fully_connected_1/biases:0 (6,)           
+Performing blockbox attack (perturbation is computed by source model)
+attacker_policy: rl
+targetted: False visualize: False decreasing_epsilons: True
+epsilons: 100 max_epsilons: [0.01] attack_proportions: [0.1]
+epsilons: 100 max_epsilon: 0.01 attack_proportion: 0.1
+460.0 0.46143790849673205 0.4447592067988669 [65, 46, 47, 87, 213, 307]
+755.0 0.4626006904487917 0.5373134328358209 [46, 91, 114, 81, 248, 289]
+315.0 0.45 0.4888888888888889 [37, 15, 30, 58, 156, 204]
+600.0 0.4485294117647059 0.5628415300546448 [87, 27, 49, 118, 224, 311]
+495.0 0.5091324200913242 0.4730941704035874 [39, 79, 127, 121, 216, 294]
+485.0 0.3983050847457627 0.5574468085106383 [41, 45, 33, 75, 226, 170]
+310.0 0.4386973180076628 0.4672489082969432 [43, 17, 18, 76, 200, 168]
+300.0 0.41335740072202165 0.4890829694323144 [40, 20, 41, 95, 211, 147]
+1365.0 0.5522388059701493 0.5240893066980024 [131, 162, 209, 135, 392, 512]
+310.0 0.5281553398058253 0.5404411764705882 [32, 31, 30, 57, 228, 137]
+539.5 309.17996377514504 0.4662454380052975 0.04674729070001371
+[539.5]
+[309.17996377514504]
+[0.4662454380052975]
+[0.04674729070001371]

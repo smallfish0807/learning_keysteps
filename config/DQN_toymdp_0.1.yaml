@@ -1,0 +1,24 @@
+env: ToyMDP3-v0
+GPU: 0
+algorithm: DQN
+model:
+    atari: False
+    exploration:
+        name: epsilon_greedy
+        epsilon_start: 1.0
+        epsilon_end: 0.01
+        epsilon_decay: 300
+        epsilon_test: 0.0
+common:
+    seed: 1126
+    batch_size: 32
+    gamma: 1
+    lr: 0.0001
+    training_steps: 1000
+    target_update_freq: 10
+    learn_start: 0
+    learn_freq: 1
+    replay_buffer: 100
+    test_freq: 10
+    test_num: 10
+    max_steps_per_episode: 3

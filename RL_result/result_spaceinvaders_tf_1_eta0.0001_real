@@ -1,0 +1,49 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Loading pretrained/dqn/SpaceInvaders/1/tf_checkpoints/tf_ckpt-199
+Online/Conv/weights:0 (8, 8, 4, 32)  
+Online/Conv/biases:0 (32,)          
+Online/Conv_1/weights:0 (4, 4, 32, 64) 
+Online/Conv_1/biases:0 (64,)          
+Online/Conv_2/weights:0 (3, 3, 64, 64) 
+Online/Conv_2/biases:0 (64,)          
+Online/fully_connected/weights:0 (7744, 512)    
+Online/fully_connected/biases:0 (512,)         
+Online/fully_connected_1/weights:0 (512, 6)       
+Online/fully_connected_1/biases:0 (6,)           
+Target/Conv/weights:0 (8, 8, 4, 32)  
+Target/Conv/biases:0 (32,)          
+Target/Conv_1/weights:0 (4, 4, 32, 64) 
+Target/Conv_1/biases:0 (64,)          
+Target/Conv_2/weights:0 (3, 3, 64, 64) 
+Target/Conv_2/biases:0 (64,)          
+Target/fully_connected/weights:0 (7744, 512)    
+Target/fully_connected/biases:0 (512,)         
+Target/fully_connected_1/weights:0 (512, 6)       
+Target/fully_connected_1/biases:0 (6,)           
+attacker_policy: rl
+targetted: False visualize: False decreasing_epsilons: False
+epsilons: 100 max_epsilons: [0.01] attack_proportions: [0.1]
+epsilons: 100 max_epsilon: 0.01 attack_proportion: 0.1
+50.0 0.5804195804195804 0.0 [44, 0, 31, 34, 68, 109]
+35.0 0.6984536082474226 0.0 [37, 2, 47, 55, 99, 148]
+65.0 0.6909722222222222 0.0 [73, 4, 8, 11, 83, 109]
+215.0 0.6208530805687204 0.009541984732824428 [263, 52, 100, 109, 128, 192]
+125.0 0.7528735632183908 0.0 [221, 0, 37, 87, 79, 98]
+155.0 0.7479338842975206 0.008287292817679558 [70, 6, 53, 73, 123, 159]
+60.0 0.8065573770491803 0.0 [77, 6, 11, 38, 93, 80]
+290.0 0.7612137203166227 0.010398613518197574 [123, 100, 79, 85, 170, 201]
+650.0 0.6551339285714286 0.0017035775127768314 [102, 110, 156, 143, 211, 174]
+10.0 0.7659033078880407 0.0033222591362126247 [169, 0, 24, 63, 75, 62]
+165.5 181.72025203592472 0.708031427279913 0.06823022858374611
+[165.5]
+[181.72025203592472]
+[0.708031427279913]
+[0.06823022858374611]

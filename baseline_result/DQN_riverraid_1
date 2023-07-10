@@ -1,0 +1,41 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Loading pretrained/dqn/Riverraid/1/tf_checkpoints/tf_ckpt-199
+Online/Conv/weights:0 (8, 8, 4, 32)  
+Online/Conv/biases:0 (32,)          
+Online/Conv_1/weights:0 (4, 4, 32, 64) 
+Online/Conv_1/biases:0 (64,)          
+Online/Conv_2/weights:0 (3, 3, 64, 64) 
+Online/Conv_2/biases:0 (64,)          
+Online/fully_connected/weights:0 (7744, 512)    
+Online/fully_connected/biases:0 (512,)         
+Online/fully_connected_1/weights:0 (512, 18)      
+Online/fully_connected_1/biases:0 (18,)          
+Target/Conv/weights:0 (8, 8, 4, 32)  
+Target/Conv/biases:0 (32,)          
+Target/Conv_1/weights:0 (4, 4, 32, 64) 
+Target/Conv_1/biases:0 (64,)          
+Target/Conv_2/weights:0 (3, 3, 64, 64) 
+Target/Conv_2/biases:0 (64,)          
+Target/fully_connected/weights:0 (7744, 512)    
+Target/fully_connected/biases:0 (512,)         
+Target/fully_connected_1/weights:0 (512, 18)      
+Target/fully_connected_1/biases:0 (18,)          
+12470.0 [15, 54, 0, 58, 23, 65, 28, 17, 1, 8, 64, 22, 168, 1, 535, 236, 75, 336]
+14490.0 [66, 109, 2, 46, 5, 138, 14, 54, 10, 26, 94, 28, 186, 27, 516, 269, 70, 274]
+15030.0 [78, 45, 2, 41, 24, 144, 10, 30, 5, 12, 94, 45, 204, 29, 546, 270, 97, 331]
+12550.0 [32, 57, 1, 60, 10, 98, 4, 40, 7, 17, 89, 29, 221, 5, 487, 281, 90, 289]
+14510.0 [68, 51, 6, 48, 37, 114, 6, 40, 8, 26, 99, 43, 239, 31, 526, 296, 81, 263]
+15300.0 [45, 53, 1, 82, 20, 146, 14, 67, 13, 23, 117, 40, 197, 32, 522, 293, 70, 328]
+7890.0 [8, 64, 0, 36, 5, 36, 2, 6, 1, 0, 18, 35, 161, 1, 345, 167, 41, 193]
+9980.0 [36, 24, 0, 27, 17, 76, 11, 42, 10, 5, 52, 27, 145, 29, 385, 189, 36, 236]
+13970.0 [47, 70, 1, 58, 10, 140, 11, 40, 9, 21, 91, 23, 191, 12, 530, 256, 79, 311]
+12930.0 [17, 59, 0, 51, 18, 67, 3, 32, 4, 9, 54, 22, 225, 8, 541, 311, 94, 336]
+12912.0 2247.11726440789

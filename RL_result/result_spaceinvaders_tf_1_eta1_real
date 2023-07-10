@@ -1,0 +1,49 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Loading pretrained/dqn/SpaceInvaders/1/tf_checkpoints/tf_ckpt-199
+Online/Conv/weights:0 (8, 8, 4, 32)  
+Online/Conv/biases:0 (32,)          
+Online/Conv_1/weights:0 (4, 4, 32, 64) 
+Online/Conv_1/biases:0 (64,)          
+Online/Conv_2/weights:0 (3, 3, 64, 64) 
+Online/Conv_2/biases:0 (64,)          
+Online/fully_connected/weights:0 (7744, 512)    
+Online/fully_connected/biases:0 (512,)         
+Online/fully_connected_1/weights:0 (512, 6)       
+Online/fully_connected_1/biases:0 (6,)           
+Target/Conv/weights:0 (8, 8, 4, 32)  
+Target/Conv/biases:0 (32,)          
+Target/Conv_1/weights:0 (4, 4, 32, 64) 
+Target/Conv_1/biases:0 (64,)          
+Target/Conv_2/weights:0 (3, 3, 64, 64) 
+Target/Conv_2/biases:0 (64,)          
+Target/fully_connected/weights:0 (7744, 512)    
+Target/fully_connected/biases:0 (512,)         
+Target/fully_connected_1/weights:0 (512, 6)       
+Target/fully_connected_1/biases:0 (6,)           
+attacker_policy: rl
+targetted: False visualize: False decreasing_epsilons: False
+epsilons: 100 max_epsilons: [0.01] attack_proportions: [0.1]
+epsilons: 100 max_epsilon: 0.01 attack_proportion: 0.1
+685.0 0.31134352373290425 0.002583979328165375 [222, 103, 78, 220, 313, 307]
+835.0 0.25 0.006535947712418301 [195, 118, 127, 154, 377, 253]
+1560.0 0.20436225699383595 0.009280742459396751 [395, 184, 222, 229, 484, 595]
+140.0 0.3620178041543027 0.02459016393442623 [61, 9, 14, 36, 140, 77]
+800.0 0.266173752310536 0.003472222222222222 [140, 163, 91, 103, 276, 309]
+575.0 0.1766630316248637 0.024691358024691357 [191, 85, 47, 101, 239, 254]
+1405.0 0.26708984375 0.0018281535648994515 [393, 255, 233, 234, 433, 500]
+280.0 0.275811209439528 0.0213903743315508 [128, 58, 48, 29, 241, 174]
+500.0 0.24617196702002356 0.014354066985645933 [110, 72, 70, 65, 257, 275]
+360.0 0.24416517055655296 0.03676470588235294 [119, 43, 17, 29, 202, 147]
+714.0 438.6729989411247 0.26037985595825475 0.048952310873538366
+[714.0]
+[438.6729989411247]
+[0.26037985595825475]
+[0.048952310873538366]

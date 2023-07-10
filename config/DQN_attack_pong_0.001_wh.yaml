@@ -1,0 +1,31 @@
+env: AttackTimingTF-v0
+GPU: 0
+algorithm: DQN
+config_path: config/DQN_pong_v0.yaml
+load_path: pretrained/dqn/Pong/1/tf_checkpoints/tf_ckpt-199
+attack:
+    eta: 0.001
+    max_epsilon: 0.01
+    epsilons: 100
+    targetted: False
+    realistic: True
+model:
+    atari: True
+    exploration:
+        name: epsilon_greedy
+        epsilon_end: 0.01
+        epsilon_decay: 250000
+        epsilon_test: 0.001
+common:
+    seed: 1126
+    batch_size: 32
+    gamma: 0.99
+    lr: 0.0001
+    training_steps: 10000000
+    target_update_freq: 1000
+    learn_start: 20000
+    learn_freq: 4
+    replay_buffer: 100000
+    test_freq: 100000
+    test_num: 10
+    max_steps_per_episode: 27000

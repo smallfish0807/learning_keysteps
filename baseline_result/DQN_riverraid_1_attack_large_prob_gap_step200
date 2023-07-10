@@ -1,0 +1,49 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Loading pretrained/dqn/Riverraid/1/tf_checkpoints/tf_ckpt-199
+Online/Conv/weights:0 (8, 8, 4, 32)  
+Online/Conv/biases:0 (32,)          
+Online/Conv_1/weights:0 (4, 4, 32, 64) 
+Online/Conv_1/biases:0 (64,)          
+Online/Conv_2/weights:0 (3, 3, 64, 64) 
+Online/Conv_2/biases:0 (64,)          
+Online/fully_connected/weights:0 (7744, 512)    
+Online/fully_connected/biases:0 (512,)         
+Online/fully_connected_1/weights:0 (512, 18)      
+Online/fully_connected_1/biases:0 (18,)          
+Target/Conv/weights:0 (8, 8, 4, 32)  
+Target/Conv/biases:0 (32,)          
+Target/Conv_1/weights:0 (4, 4, 32, 64) 
+Target/Conv_1/biases:0 (64,)          
+Target/Conv_2/weights:0 (3, 3, 64, 64) 
+Target/Conv_2/biases:0 (64,)          
+Target/fully_connected/weights:0 (7744, 512)    
+Target/fully_connected/biases:0 (512,)         
+Target/fully_connected_1/weights:0 (512, 18)      
+Target/fully_connected_1/biases:0 (18,)          
+attacker_policy: attack_large_prob_gap
+targetted: False visualize: False decreasing_epsilons: False
+epsilons: 100 max_epsilons: [0.01] attack_proportions: [0.179]
+epsilons: 100 max_epsilon: 0.01 attack_proportion: 0.179
+2090.0 0.15436241610738255 0.028985507246376812 [13, 6, 0, 10, 2, 32, 0, 6, 1, 0, 4, 24, 71, 2, 133, 37, 10, 96]
+7930.0 0.18533123028391169 0.03404255319148936 [36, 32, 1, 60, 6, 60, 7, 37, 9, 9, 41, 25, 126, 3, 352, 221, 53, 190]
+2900.0 0.18076285240464346 0.05504587155963303 [7, 31, 1, 5, 3, 26, 0, 12, 2, 0, 13, 7, 74, 5, 180, 85, 14, 138]
+2770.0 0.19487179487179487 0.08771929824561403 [9, 6, 1, 2, 3, 25, 0, 13, 2, 0, 13, 10, 86, 6, 196, 77, 16, 120]
+2170.0 0.17625231910946196 0.031578947368421054 [7, 25, 0, 3, 2, 25, 0, 6, 3, 1, 8, 7, 84, 3, 134, 73, 21, 137]
+2530.0 0.14620938628158844 0.06172839506172839 [7, 11, 1, 5, 3, 20, 0, 6, 1, 0, 10, 30, 101, 5, 155, 59, 20, 120]
+2660.0 0.2033271719038817 0.03636363636363636 [5, 32, 0, 5, 4, 29, 0, 9, 4, 0, 11, 11, 73, 5, 140, 79, 12, 122]
+5940.0 0.178125 0.07017543859649122 [7, 20, 1, 17, 3, 41, 3, 14, 5, 0, 28, 35, 176, 6, 250, 160, 36, 158]
+2940.0 0.196513470681458 0.06451612903225806 [8, 8, 2, 12, 3, 23, 0, 11, 6, 0, 13, 12, 72, 31, 193, 111, 18, 108]
+3020.0 0.1907790143084261 0.025 [4, 28, 1, 9, 3, 24, 0, 10, 3, 2, 17, 11, 78, 3, 235, 77, 15, 109]
+3495.0 1800.517981026571 0.18065346559525486 0.017307786983942728
+[3495.0]
+[1800.517981026571]
+[0.18065346559525486]
+[0.017307786983942728]
